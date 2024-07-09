@@ -25,7 +25,7 @@
 - 刺激呈示中の実験協力者の感情状態('Happy','Tense','Sad','Relax')の時系列的遷移
 - 刺激に対して実験協力者に喚起された総合的な感情('Happy','Tense','Sad','Relax')
 ### アプリケーション起動方法
-- src/main.pyをpythonで実行
+- src/main.pyをpythonで実行($python main.py)
 - http://127.0.0.1:8050/ にアクセス
 ### アプリケーション使用手順
 #### 1. データアップロード
