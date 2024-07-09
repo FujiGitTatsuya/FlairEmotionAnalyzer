@@ -34,7 +34,8 @@ def parse_config(contents, filename):
     try:
         if 'ini' in filename:
             config = configparser.ConfigParser()
-            config.read(filename, encoding = 'utf-8')
+            # config.read(filename, encoding = 'utf-8')
+            config.read_string(decoded.decode('utf-8'))
             type(config)
 
             list_of_stimulation_number = eval(config.get("STIMULATION", "LIST_OF_STIMULATION_NUMBER"))
